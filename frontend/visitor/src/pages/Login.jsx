@@ -101,10 +101,7 @@ const Login = () => {
               onChange={(e) => setResetEmail(e.target.value)}
               className="w-full p-2 mb-4 border border-gray-300"
             />
-            <button
-              onClick={handleForgotPassword}
-              className="w-full bg-blue-500 text-white p-2 mb-4"
-            >
+           
               Submit
             </button>
             <button
