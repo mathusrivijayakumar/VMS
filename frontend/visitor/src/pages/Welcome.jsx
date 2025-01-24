@@ -67,12 +67,7 @@ const Welcome = () => {
             >
               Get Started
             </button>
-            <button
-              className="bg-green-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-green-600 transition"
-              onClick={() => navigate("/login")}
-            >
-              Login
-            </button>
+            
           </div>
           <div className="py-12 px-6">
             <div className="container mx-auto text-center">
